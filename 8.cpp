@@ -13,7 +13,7 @@ struct Auto {
     // Definieren Sie eine einfache Liste
     int liste[10];
 
-    Definieren Sie eine doppelte Liste
+    // Definieren Sie eine doppelte Liste
     int doppelteListe[2][5];
 };
 
@@ -25,10 +25,10 @@ int main() {
     Audi.kmh = 250;
 
     Auto VW;
-    VW.name = "ID3";
+    VW.name = " VWID3";
     VW.PS = 150;
     VW.kmh = 200;
 
-
+    
     return 0;
 }
