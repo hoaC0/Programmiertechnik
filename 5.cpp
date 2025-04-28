@@ -39,8 +39,16 @@ void c(int a,int b, int c, int d, int e, int f, int g, int h, int i, int j){
     }
 }
 
+/* Schreiben Sie eine einfache Summenfunktion zu einer rekursiven Funktion um */
+int d(int a, int b) {
+    if (b <= 0) {
+        return a;
+    }
+    return a + d(a + b, b - 1);
+}
+
 
 int main(){
-    c(1,2,3,4,5,6,7,8,9,10);
+    d(1,2);
     return 0;
 }

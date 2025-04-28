@@ -1,6 +1,9 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
+// Zeiger
+
+
 /*
 
 a) Definieren Sie dynamisch 10 Gleitkommazahlen und füllen Sie durch Eingabe über 
