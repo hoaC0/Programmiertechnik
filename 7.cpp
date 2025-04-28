@@ -83,9 +83,14 @@ void b() {
 }
 
 int main() {
-    b();
-
     
+    string food = "Pizza\n";
+    string* pointer = &food;
 
+    cout << food << endl;
+    cout << pointer << endl << endl;
+
+    *pointer = "Burger";
+    cout << *pointer;
     return 0;
 }
