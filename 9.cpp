@@ -1,5 +1,7 @@
 #include <iostream>
+#include "9.h"
 using namespace std;
+
 // Klassen
 
 // a) Bilden Sie eine Klasse Schueler bestehend aus name, vorname, geburtstag
